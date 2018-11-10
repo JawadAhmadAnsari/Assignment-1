@@ -1,0 +1,169 @@
+* {
+	text-align: center;
+	box-sizing: border-box;
+}
+.a{
+	display : inline;
+	border-style : solid;
+	border-color : red;
+	background-color : #000;
+	color : #fff;
+}
+.a1{
+	display : inline;
+	border-style : solid;
+	border-color : red;
+	background-color : #000;
+	color : #fff;
+	margin-left : 50px;
+}
+.a2{
+	display : inline;
+	border-style : solid;
+	border-color : red;
+	background-color : #000;
+	color : #fff;
+	margin-left : 50px;
+}
+@media (min-width: 992px) {
+
+	#a {
+		border: 2px solid black;
+		background-color: pink;
+		float: left;
+	}
+
+	#a1 {
+		border: 2px solid black;
+		background-color: red;
+		width: 50%;
+		color: white;
+	}
+
+	#a2 {
+		border: 2px solid black;
+		background-color: yellow;
+		float: right;
+
+	}
+
+	#p1 {
+		border: 2px solid black;
+		background-color: gray;
+		float: left;
+		width: 25%;
+	}
+
+	#p2 {
+		border:2px solid black;
+		background-color: gray;
+		width: 25%;
+		float: right;
+		color: black;
+
+	}
+
+	#p3 {
+		border: 2px solid black;
+		background-color: gray;
+		float: right;
+		width: 25%;
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 997px)
+{
+	#a {
+		border: 2px solid black;
+		background-color: pink;
+		float: left;
+
+	}
+
+	#a1 {
+		border: 2px solid black;
+		background-color: red;
+		width: 50%;
+		clear: right;
+		color: white;
+	}
+
+	#a2 {
+		border: 2px solid black;
+		background-color: yellow;
+		float: right;
+		clear: left;
+
+	}
+
+	#p1 {
+		border: 2px solid black;
+		background-color: gray;
+		float: left;
+		width: 25%;
+	}
+
+	#p2 {
+		border:2px solid black;
+		background-color: gray;
+		width: 25%;
+		float: right;
+		clear: right;
+		color: black;
+	}
+
+	#p3 {
+		border: 2px solid black;
+		background-color: gray;
+		float: right;
+		width: 25%;
+		clear: left;
+	}
+}
+
+@media (max-width: 767px)
+{
+	#a {
+		border: 2px solid black;
+		background-color: pink;
+		float: left;
+	}
+
+	#a1 {
+		border: 2px solid black;
+		background-color: red;
+		width: 50%;
+		color: white;
+	}
+
+	#a2 {
+		border: 2px solid black;
+		background-color: yellow;
+		float: right;
+
+	}
+
+	#p1 {
+		border: 2px solid black;
+		background-color: gray;
+		float: left;
+		width: 25%;
+	}
+
+	#p2 {
+		border:2px solid black;
+		background-color: gray;
+		width: 25%;
+		float: right;
+		color: black;
+	}
+
+	#p3 {
+		border: 2px solid black;
+		background-color: gray;
+		float: right;
+		width: 25%;
+	}
+}
